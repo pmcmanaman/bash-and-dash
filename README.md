@@ -1,4 +1,4 @@
-Hello,
+Hello Smoltech,
 
 There are various ways to retrive logs for a deployment. One way is to use the railway CLI. The `deploy-logs.sh` script in this repo uses the railway CLI to save the logs to a file. Here are instructions to install the CLI if you have not done so already
 
