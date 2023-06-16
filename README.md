@@ -1,6 +1,6 @@
 Hello,
 
-There are various ways to retrive logs for a deployment. One way is to use the railway CLI. Here are instructions to install the CLI if you have not done so already
+There are various ways to retrive logs for a deployment. One way is to use the railway CLI. The `deploy-logs.sh` script in this repo uses the railway CLI to save the logs to a file. Here are instructions to install the CLI if you have not done so already
 
 <https://docs.railway.app/develop/cli>
 
@@ -18,6 +18,8 @@ chmod +x deploy-logs.sh
 ```
 
 The script will ask for your project directory and will launch a railway CLI process in the background and save logs to `deploy.log` in the project directory. Run the `deploy-logs.sh` script again to stop the process and logging.
+
+> **_NOTE:_**  The deploy-logs.sh script has only been tested on Linux. It should also work on macOS, but could need some modifying.
 
 
 Another option is to use the public API
